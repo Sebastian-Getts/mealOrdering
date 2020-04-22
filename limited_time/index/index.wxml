@@ -1,0 +1,19 @@
+<view class="title">
+  <text>订餐方式及时间</text>
+</view>
+<tab tabs="{{tabList}}" bindtabsItemChange="handleTabsItemChange">
+  <block wx:if="{{tabList[0].isActive}}">
+    <view class="waisong_wrap">
+      <image class="empty_cart" src="/images/limited_time/empty_cart.png" mode="widthFix" />
+      <button type="primary">+新增送餐地址</button>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="fetch_wrap">
+      <image class="fetch_cart" src="/images/limited_time/fetch.jpg" mode="widthFix" />
+    </view>
+  </block>
+</tab>
+<view class="bottom">
+  <text>继续订餐 ></text>
+</view>

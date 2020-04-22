@@ -1,0 +1,24 @@
+.tabs {}
+
+.tab_title {
+    display       : flex;
+    flex-direction: row;
+
+}
+
+.tab_item {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    flex            : 1;
+    padding         : 30rpx 0;
+    background-color: #e9e6e6;
+}
+
+.active {
+    color           : var(--themeColor);
+    border-bottom   : 5rpx solid currentColor;
+    background-color: whitesmoke;
+}
+
+.tab_content {}
