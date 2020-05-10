@@ -1,2 +1,63 @@
-<!--main/mine/mine.wxml-->
-<text>main/mine/mine.wxml</text>
+<view class="mine_page">
+    <view class="title_wrap">
+
+            <image class="title_background" src="" mode="widthFix" lazy-load="false" />
+    
+        <view class="display_user">
+            <view class="user_info_wrap">
+                <view class="ava">
+                    <open-data type="userAvatarUrl"></open-data>
+                </view>
+                <text class="title_userText">客户</text>
+            </view>
+            <view class="edit_wrap">
+                <view class="iconfont icon-edit"></view>
+                <text class="edit_text">编辑</text>
+            </view>
+        </view>
+    </view>
+    <view class="content_wrap">
+        <view class="item_wrap">
+            <view class="item_text">我的卡券</view>
+            <view class="detail_jump">
+                <view class="count"></view>
+                <text>></text>
+            </view>
+        </view>
+        <view class="item_wrap">
+            <view class="item_text">我的V金</view>
+            <view class="detail_jump">
+                <view class="count"></view>
+                <text>></text>
+            </view>
+        </view>
+        <view class="item_wrap">
+            <view class="item_text">我的余额</view>
+            <view class="detail_jump">
+                <view class="count"></view>
+                <text>></text>
+            </view>
+        </view>
+        <view class="item_wrap">
+            <view class="item_text">联系客服</view>
+            <view class="detail_jump">
+                <view class="count"></view>
+                <text>></text>
+            </view>
+        </view>
+        <view class="item_wrap">
+            <view class="item_text">帮助与反馈</view>
+            <view class="detail_jump">
+                <view class="count"></view>
+                <text>></text>
+            </view>
+        </view>
+        <view class="item_wrap">
+            <view class="item_text">经营公示</view>
+            <view class="detail_jump">
+                <view class="count"></view>
+                <text>></text>
+            </view>
+        </view>
+    </view>
+</view>

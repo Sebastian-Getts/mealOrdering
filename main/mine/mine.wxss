@@ -1,1 +1,63 @@
-/* main/mine/mine.wxss */
+.mine_page {
+  display: flex;
+  flex-direction: column;
+}
+.mine_page .title_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.mine_page .title_wrap .title_background {
+  position: relative;
+  filter: blur(20rpx);
+  background-color: lightskyblue;
+  height: 300rpx;
+}
+.mine_page .title_wrap .display_user {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.mine_page .title_wrap .display_user .user_info_wrap {
+  display: flex;
+}
+.mine_page .title_wrap .display_user .user_info_wrap .ava {
+  width: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.mine_page .title_wrap .display_user .user_info_wrap .title_userText {
+  margin: auto;
+}
+.mine_page .title_wrap .display_user .edit_wrap {
+  display: flex;
+}
+.mine_page .title_wrap .display_user .edit_wrap .edit_text {
+  margin-left: 10rpx;
+}
+.mine_page .content_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.mine_page .content_wrap .item_wrap {
+  display: flex;
+  border-bottom: 1rpx solid blanchedalmond;
+  align-items: center;
+  justify-content: space-between;
+  height: 90rpx;
+  width: 90%;
+}
+.mine_page .content_wrap .item_wrap .item_text {
+  font-size: 26rpx;
+}
+.mine_page .content_wrap .item_wrap .detail_jump {
+  display: flex;
+}
+.mine_page .content_wrap .item_wrap .detail_jump text {
+  color: #cccccc;
+}

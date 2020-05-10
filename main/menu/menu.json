@@ -1,3 +1,6 @@
 {
+  "navigationBarTitleText": "bong宅急送",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#000000",
   "usingComponents": {}
 }

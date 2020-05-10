@@ -1,1 +1,80 @@
-/* main/menu/menu.wxss */
+page {
+  background: #eeecec;
+}
+.title_wrap {
+  height: 100rpx;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin: auto;
+}
+.title_wrap .deliver_wrap {
+  display: flex;
+  flex-direction: column;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  width: 70%;
+}
+.title_wrap .deliver_wrap .location_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title_wrap .deliver_wrap .deliver_details {
+  display: flex;
+}
+.title_wrap .deliver_wrap .deliver_type {
+  color: red;
+}
+.title_wrap .my_tickets {
+  font-size: 26rpx;
+  color: red;
+  margin-right: 20rpx;
+}
+.content {
+  height: calc(100vh - 110rpx );
+  display: flex;
+  margin-top: 20rpx;
+}
+.content .left_menu {
+  flex: 1.5;
+  background: white;
+  border-radius: 20rpx;
+}
+.content .left_menu .menu_item {
+  display: flex;
+  height: 80rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.content .left_menu .active {
+  color: red;
+  border-left: 5rpx solid currentColor;
+}
+.content .right_details {
+  flex: 5;
+}
+.content .right_details .goods_group .goods_title {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .right_details .goods_group .goods_title .delimiter {
+  color: #ccc;
+  padding: 0 10rpx;
+}
+.content .right_details .goods_group .goods_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .right_details .goods_group .goods_list navigator {
+  width: 33.33%;
+  text-align: center;
+}
+.content .right_details .goods_group .goods_list navigator image {
+  width: 50%;
+}

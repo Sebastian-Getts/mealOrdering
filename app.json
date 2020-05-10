@@ -1,8 +1,8 @@
 {
   "pages": [
     "main/menu/menu",
-    "main/order/order",
     "main/mine/mine",
+    "main/order/order",
     "limited_time/index/index"
   ],
   "tabBar": {
